@@ -828,10 +828,10 @@ if __name__ == "__main__":
     args.t_dset_path = folder + args.dset + '/' + names[task[args.t]] + 'List.txt'     
 
 
-    load_tag = 'fuz_rule_com0.5'##fuz_rule_0.5_para#
+    load_tag = 'fuz_rule_para'##fuz_rule_0.5_para#
     args.task = names[task[args.s1]][0].upper() + names[task[args.s2]][0].upper()+ '2' + names[task[args.t]][0].upper()
     args.output_dir_src = osp.join(args.output, args.da, args.dset, args.task, load_tag)
-    traepo = 9
+    traepo = 0
     save_tag = 'fuz_tar_weight_test' + str(traepo)
     args.output_dir = osp.join(args.output, args.da, args.dset, args.task, save_tag)
 
