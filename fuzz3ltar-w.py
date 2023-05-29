@@ -1229,7 +1229,7 @@ if __name__ == "__main__":
             args.src_classes = [i for i in range(25)]
             args.tar_classes = [i for i in range(65)]
 
-    load_tag = 'fuz_rule_0.5'#_para
+    load_tag = 'fuz_rule_para'#
     args.task = names[task[args.s1]][0].upper() + names[task[args.s2]][0].upper() + names[task[args.s3]][0].upper() + '2' + names[task[args.t]][0].upper()
     args.output_dir_src = osp.join(args.output, args.da, args.dset, args.task, load_tag)
     traepo = 0
