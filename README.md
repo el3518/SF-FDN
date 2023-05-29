@@ -1,7 +1,7 @@
 # SF-FDN
 The implementation of "Source-Free Multi-Domain Adaptation with Fuzzy Rule-based Deep Neural Networks" in Python. 
 
-Code for the TKDE publication. The full paper can be found [here](10.1109/TFUZZ.2023.3276978). 
+Code for the TFS publication. The full paper can be found [here](10.1109/TFUZZ.2023.3276978). 
 
 ## Contribution
 
